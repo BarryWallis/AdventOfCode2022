@@ -53,7 +53,7 @@ internal class InputParser : IInputParser
 
             for (int i = 0; i < numberOfCrates; i++)
             {
-                char crate = line[i * CrateStringWidth + CrateStringOffset];
+                char crate = line[(i * CrateStringWidth) + CrateStringOffset];
                 if (crate != ' ')
                 {
                     crateStacks[i].Push(new Crate(crate));

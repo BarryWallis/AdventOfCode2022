@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Day6A": {
+      "commandName": "Project",
+      "commandLineArgs": "<..\\..\\..\\prod.txt"
+    }
+  }
+}
